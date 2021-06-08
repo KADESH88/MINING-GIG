@@ -1,0 +1,151 @@
+body {
+    background-color:white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+}
+
+h6 {
+    margin: ;
+}
+h1 {
+    color: black;
+    font-size: 3vw;
+    padding: 15px;
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-size: 2vw;
+}
+p {
+    color: rgb(75, 74, 74);
+    font-size: 2vw;
+    text-align: center;
+}
+img {
+    width: 15%;
+}
+
+h5, p{
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+  .conta{
+      width: 100%;     
+  }
+.navbar{
+    padding: 5px 0px 5px 5px;
+}
+.jumbotron{
+    padding: 5px;
+    
+}
+.jumbo{
+    width: 100%;
+    background-color:lightgrey;
+}
+.sideBar-1{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    height: 200px;
+    padding: 1px;
+    box-sizing: border-box;
+    contain: content;
+}
+
+div.insider{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.bullet{
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+}
+
+.bullet > h6 {
+    flex: 1;
+    margin: 5px 0 0 5px;
+    text-align: left;
+    padding: 3px 0 0 5px;
+}
+.bullet img{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin: auto;
+}
+.main-container{
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 100%;
+    margin: auto;
+}
+.sideBar-1{
+    flex: 1;
+    margin-right: 8px;
+}
+.container-b{
+    flex: 2;
+    box-sizing: border-box;
+    contain: content; 
+}
+.slide-c{
+    background-color: rgb(13, 26, 26);
+    contain: content;
+    box-sizing: border-box;
+  }
+  .mySlides{
+      width: 100%;
+      height: 400px;
+  }
+  .container-c{
+      display: flex;
+      flex-direction: column;
+      border: 1px solid red;
+      padding: 2px 0 0 0;
+  }
+  .banner{
+      contain: content;
+      border: 1px solid black;
+      background-image: url("..//mining gig/images/banner.jpg");
+      height: 315px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+ 
+ .next{
+     flex: 1;
+     display: flex;
+     flex-direction: row;
+     width: 70%;
+     margin: auto;
+     border: 1px solid yellow;
+ }
+ .next1{
+     flex: 1;
+     display: flex;
+     flex-direction: row;
+ }
+ .conta1{
+     flex: 1;
+     border: 1px solid yellow;
+ }
+ .conta2{
+     display: flex;
+     flex-direction: row;
+ }
